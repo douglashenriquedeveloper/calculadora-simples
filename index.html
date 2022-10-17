@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <script>
+        //inicio de tdAc
+        function quandoMouserEntrarNoTdAc() {
+            let mudarCores = window.document.getElementById("interacaoDoTdAc")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdAc() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdAc")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdAc() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdAc")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdAc() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdAc")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdAc
+
+        //inicio de tdEx
+        function quandoMouserEntrarNoTdEx() {
+            let mudarCores = window.document.getElementById("interacaoDoTdEx")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdEx() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdEx")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdEx() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdEx")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdEx() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdEx")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdEx
+
+        //inicio de tdParenteseEsquerdo
+        function quandoMouserEntrarNoTdParenteseEsquerdo() {
+            let mudarCores = window.document.getElementById("interacaoDoTdParenteseEsquerdo")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdParenteseEsquerdo() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdParenteseEsquerdo")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdParenteseEsquerdo() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdParenteseEsquerdo")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdParenteseEsquerdo() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdParenteseEsquerdo")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdParenteseEsquerdo
+
+        //inicio de tdParenteseDireito
+        function quandoMouserEntrarNoTdParenteseDireito() {
+            let mudarCores = window.document.getElementById("interacaoDoTdParenteseDireito")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdParenteseDireito() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdParenteseDireito")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdParenteseDireito() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdParenteseDireito")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdParenteseDireito() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdParenteseDireito")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdParenteseDireito
+
+        //inicio de tdDivisao
+        function quandoMouserEntrarNoTdDivisao() {
+            let mudarCores = window.document.getElementById("interacaoDoTdDivisao")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdDivisao() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdDivisao")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdDivisao() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdDivisao")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdDivisao() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdDivisao")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdDivisao
+
+        //inicio de td7
+        function quandoMouserEntrarNoTd7() {
+            let mudarCores = window.document.getElementById("interacaoDoTd7")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd7() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd7")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd7() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd7")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd7() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd7")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td7
+
+        //inicio de td8
+        function quandoMouserEntrarNoTd8() {
+            let mudarCores = window.document.getElementById("interacaoDoTd8")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd8() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd8")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd8() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd8")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd8() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd8")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td8
+
+        //inicio de td9
+        function quandoMouserEntrarNoTd9() {
+            let mudarCores = window.document.getElementById("interacaoDoTd9")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd9() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd9")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd9() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd9")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd9() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd9")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td9
+
+        //inicio de tdMultiplicacao
+        function quandoMouserEntrarNoTdMultiplicacao() {
+            let mudarCores = window.document.getElementById("interacaoDoTdMultiplicacao")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdMultiplicacao() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdMultiplicacao")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdMultiplicacao() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdMultiplicacao")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdMultiplicacao() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdMultiplicacao")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdMultiplicacao
+
+        //inicio de td4
+        function quandoMouserEntrarNoTd4() {
+            let mudarCores = window.document.getElementById("interacaoDoTd4")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd4() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd4")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd4() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd4")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd4() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd4")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td4
+
+        //inicio de td5
+        function quandoMouserEntrarNoTd5() {
+            let mudarCores = window.document.getElementById("interacaoDoTd5")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd5() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd5")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd5() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd5")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd5() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd5")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td5
+
+        //inicio de td6
+        function quandoMouserEntrarNoTd6() {
+            let mudarCores = window.document.getElementById("interacaoDoTd6")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd6() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd6")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd6() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd6")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd6() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd6")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td6
+
+        //inicio de td6Subtracao
+        function quandoMouserEntrarNoTdSubtracao() {
+            let mudarCores = window.document.getElementById("interacaoDotdSubtracao")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdSubtracao() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDotdSubtracao")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdSubtracao() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDotdSubtracao")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdSubtracao() {
+            let voltaAsCores = window.document.getElementById("interacaoDotdSubtracao")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdSubtracao
+
+        //inicio de td1
+        function quandoMouserEntrarNoTd1() {
+            let mudarCores = window.document.getElementById("interacaoDoTd1")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd1() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd1")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd1() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd1")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd1() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd1")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td1
+
+        //inicio de td2
+        function quandoMouserEntrarNoTd2() {
+            let mudarCores = window.document.getElementById("interacaoDoTd2")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd2() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd2")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd2() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd2")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd2() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd2")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td2
+
+        //inicio de td3
+        function quandoMouserEntrarNoTd3() {
+            let mudarCores = window.document.getElementById("interacaoDoTd3")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd3() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd3")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd3() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd3")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd3() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd3")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td3
+
+        //inicio de tdAdicao
+        function quandoMouserEntrarNoTdAdicao() {
+            let mudarCores = window.document.getElementById("interacaoDoTdAdicao")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdAdicao() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdAdicao")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdAdicao() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdAdicao")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdAdicao() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdAdicao")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdAdicao
+
+        //inicio de td0
+        function quandoMouserEntrarNoTd0() {
+            let mudarCores = window.document.getElementById("interacaoDoTd0")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTd0() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTd0")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTd0() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTd0")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTd0() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTd0")
+            voltaAsCores.style.background = "#00A3E04F"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de td0
+
+        //inicio de tdPonto
+        function quandoMouserEntrarNoTdPonto() {
+            let mudarCores = window.document.getElementById("interacaoDoTdPonto")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdPonto() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdPonto")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdPonto() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdPonto")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdPonto() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdPonto")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdPonto
+
+        //inicio de tdVirgula
+        function quandoMouserEntrarNoTdVirgula() {
+            let mudarCores = window.document.getElementById("interacaoDoTdVirgula")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdVirgula() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdVirgula")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdVirgula() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdVirgula")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdVirgula() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdVirgula")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdVirgula
+
+        //inicio de tdIgual
+        function quandoMouserEntrarNoTdIgual() {
+            let mudarCores = window.document.getElementById("interacaoDoTdIgual")
+            mudarCores.style.background = "#39f"
+            mudarCores.style.color = "#fff"
+        }
+
+        function quandoMouserApertarNoTdIgual() {
+            let mostrarCorDeApertar = window.document.getElementById("interacaoDoTdIgual")
+            mostrarCorDeApertar.style.background = "#fff"
+            mostrarCorDeApertar.style.color = "#000"
+        }
+
+        function quandoMouserSoltarTdIgual() {
+            let mostrarCorDeAperta = window.document.getElementById("interacaoDoTdIgual")
+            mostrarCorDeAperta.style.background = "#39f"
+            mostrarCorDeAperta.style.color = "#fff"
+        }
+
+        function quandoMouserSairDoTdIgual() {
+            let voltaAsCores = window.document.getElementById("interacaoDoTdIgual")
+            voltaAsCores.style.background = "#2E93B921"
+            voltaAsCores.style.color = "#000"
+        }
+        //Fim de tdIgual
+    </script>
+    <script>
+        function insert(num) {
+            let numero = window.document.getElementById("resultado").innerHTML
+            window.document.getElementById("resultado").innerHTML = numero + num
+        }
+
+        function limparTudo() {
+            window.document.getElementById("resultado").innerHTML = ""
+        }
+
+        function apagarUmPorUm() {
+            let resultado = window.document.getElementById("resultado").innerHTML
+            window.document.getElementById("resultado").innerHTML = resultado.substring(0, resultado.length - 1)
+        }
+
+        function calcular() {
+            let resultadoCalculado = window.document.getElementById("resultado").innerHTML
+            if (resultadoCalculado) {
+                window.document.getElementById("resultado").innerHTML = eval(resultadoCalculado)
+            }
+        }
+    </script>
+    <p id="resultado"></p>
+    <table>
+        <tr>
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdAc" onmouseenter="quandoMouserEntrarNoTdAc()"
+                onmousedown="quandoMouserApertarNoTdAc()" onmouseup="quandoMouserSoltarTdAc()"
+                onmouseout="quandoMouserSairDoTdAc()" onclick="limparTudo()">C</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdEx" onmouseenter="quandoMouserEntrarNoTdEx()"
+                onmousedown="quandoMouserApertarNoTdEx()" onmouseup="quandoMouserSoltarTdEx()"
+                onmouseout="quandoMouserSairDoTdEx()" onclick="apagarUmPorUm()">
+                < </td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdParenteseEsquerdo"
+                onmouseenter="quandoMouserEntrarNoTdParenteseEsquerdo()"
+                onmousedown="quandoMouserApertarNoTdParenteseEsquerdo()"
+                onmouseup="quandoMouserSoltarTdParenteseEsquerdo()" onmouseout="quandoMouserSairDoTdParenteseEsquerdo()"
+                onclick="insert('(')">(</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdParenteseDireito"
+                onmouseenter="quandoMouserEntrarNoTdParenteseDireito()"
+                onmousedown="quandoMouserApertarNoTdParenteseDireito()"
+                onmouseup="quandoMouserSoltarTdParenteseDireito()" onmouseout="quandoMouserSairDoTdParenteseDireito()"
+                onclick="insert(')')">)</td>
+        </tr>
+        <tr>
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd7" onmouseenter="quandoMouserEntrarNoTd7()"
+                onmousedown="quandoMouserApertarNoTd7()" onmouseup="quandoMouserSoltarTd7()"
+                onmouseout="quandoMouserSairDoTd7()" onclick="insert('7')">7</td>
+
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd8" onmouseenter="quandoMouserEntrarNoTd8()"
+                onmousedown="quandoMouserApertarNoTd8()" onmouseup="quandoMouserSoltarTd8()"
+                onmouseout="quandoMouserSairDoTd8()" onclick="insert('8')">8</td>
+
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd9" onmouseenter="quandoMouserEntrarNoTd9()"
+                onmousedown="quandoMouserApertarNoTd9()" onmouseup="quandoMouserSoltarTd9()"
+                onmouseout="quandoMouserSairDoTd9()" onclick="insert('9')">9</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdDivisao" onmouseenter="quandoMouserEntrarNoTdDivisao()"
+                onmousedown="quandoMouserApertarNoTdDivisao()" onmouseup="quandoMouserSoltarTdDivisao()"
+                onmouseout="quandoMouserSairDoTdDivisao()" onclick="insert('/')">/</td>
+        </tr>
+        <tr>
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd4" onmouseenter="quandoMouserEntrarNoTd4()"
+                onmousedown="quandoMouserApertarNoTd4()" onmouseup="quandoMouserSoltarTd4()"
+                onmouseout="quandoMouserSairDoTd4()" onclick="insert('4')">4</td>
+
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd5" onmouseenter="quandoMouserEntrarNoTd5()"
+                onmousedown="quandoMouserApertarNoTd5()" onmouseup="quandoMouserSoltarTd5()"
+                onmouseout="quandoMouserSairDoTd5()" onclick="insert('5')">5</td>
+
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd6" onmouseenter="quandoMouserEntrarNoTd6()"
+                onmousedown="quandoMouserApertarNoTd6()" onmouseup="quandoMouserSoltarTd6()"
+                onmouseout="quandoMouserSairDoTd6()" onclick="insert('6')">6</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdMultiplicacao"
+                onmouseenter="quandoMouserEntrarNoTdMultiplicacao()"
+                onmousedown="quandoMouserApertarNoTdMultiplicacao()" onmouseup="quandoMouserSoltarTdMultiplicacao()"
+                onmouseout="quandoMouserSairDoTdMultiplicacao()" onclick="insert('*')">*</td>
+        </tr>
+        <tr>
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd1" onmouseenter="quandoMouserEntrarNoTd1()"
+                onmousedown="quandoMouserApertarNoTd1()" onmouseup="quandoMouserSoltarTd1()"
+                onmouseout="quandoMouserSairDoTd1()" onclick="insert('1')">1</td>
+
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd2" onmouseenter="quandoMouserEntrarNoTd2()"
+                onmousedown="quandoMouserApertarNoTd2()" onmouseup="quandoMouserSoltarTd2()"
+                onmouseout="quandoMouserSairDoTd2()" onclick="insert('2')">2</td>
+
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd3" onmouseenter="quandoMouserEntrarNoTd3()"
+                onmousedown="quandoMouserApertarNoTd3()" onmouseup="quandoMouserSoltarTd3()"
+                onmouseout="quandoMouserSairDoTd3()" onclick="insert('3')">3</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDotdSubtracao"
+                onmouseenter="quandoMouserEntrarNoTdSubtracao()" onmousedown="quandoMouserApertarNoTdSubtracao()"
+                onmouseup="quandoMouserSoltarTdSubtracao()" onmouseout="quandoMouserSairDoTdSubtracao()"
+                onclick="insert('-')">-</td>
+        </tr>
+        <tr>
+            <td class="estiloDosTdsNumeros" id="interacaoDoTd0" onmouseenter="quandoMouserEntrarNoTd0()"
+                onmousedown="quandoMouserApertarNoTd0()" onmouseup="quandoMouserSoltarTd0()"
+                onmouseout="quandoMouserSairDoTd0()" onclick="insert('0')">0</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdPonto" onmouseenter="quandoMouserEntrarNoTdPonto()"
+                onmousedown="quandoMouserApertarNoTdPonto()" onmouseup="quandoMouserSoltarTdPonto()"
+                onmouseout="quandoMouserSairDoTdPonto()" onclick="insert('.')">.</td>
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdIgual" onmouseenter="quandoMouserEntrarNoTdIgual()"
+                onmousedown="quandoMouserApertarNoTdIgual()" onmouseup="quandoMouserSoltarTdIgual()"
+                onmouseout="quandoMouserSairDoTdIgual()" onclick="calcular()">=</td>
+
+            <td class="estiloDosTdsSimbolos" id="interacaoDoTdAdicao" onmouseenter="quandoMouserEntrarNoTdAdicao()"
+                onmousedown="quandoMouserApertarNoTdAdicao()" onmouseup="quandoMouserSoltarTdAdicao()"
+                onmouseout="quandoMouserSairDoTdAdicao()" onclick="insert('+')">+</td>
+        </tr>
+    </table>
+</body>
+
+</html>
